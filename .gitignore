@@ -1,0 +1,18 @@
+node_modules/
+.undo/
+.env
+.env.*
+*.log
+
+# Local-only SCHUNK asset with reassigned materials and embedded finger groups.
+dist/assets/grippers/schunk-egpc40/egpc40.glb
+dist/assets/grippers/schunk-egpc40/egpc40.manifest.json
+dist/assets/grippers/schunk-egpc40/LICENSE.txt
+
+# Local conversion experiments and session records.
+tools/convert-egpc40-step.mjs
+tools/inspect-egpc40-solidworks.ps1
+tools/validate-glb.mjs
+CHECKPOINT_*.md
+SOLIDWORKS_EGPC40_RECORD.md
+

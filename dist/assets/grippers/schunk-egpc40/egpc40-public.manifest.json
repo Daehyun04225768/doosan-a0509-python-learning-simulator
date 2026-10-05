@@ -1,0 +1,43 @@
+{
+  "product": "SCHUNK Co-act EGP-C 40-N-N-M1013",
+  "productId": "1359018",
+  "sourceFormat": "STEP AP214",
+  "outputFile": "egpc40-public.glb",
+  "outputBytes": 1823388,
+  "meshCount": 18,
+  "triangleCount": 53494,
+  "boundsMeters": {
+    "min": [
+      -0.04505319148302078,
+      -0.04503937438130379,
+      -0.12330000102519989
+    ],
+    "max": [
+      0.048699915409088135,
+      0.04503937438130379,
+      0.012149999849498272
+    ],
+    "size": [
+      0.09375310689210892,
+      0.09007874876260757,
+      0.13545000087469816
+    ]
+  },
+  "conversion": {
+    "type": "technical format conversion and triangulation",
+    "linearDeflectionMeters": 0.00035,
+    "angularDeflectionRadians": 0.35,
+    "manualMaterialReassignment": false,
+    "meshRenaming": false,
+    "fingerRegrouping": false,
+    "embeddedFingerAnimation": false
+  },
+  "license": {
+    "id": "CC-BY-ND-4.0",
+    "rightsHolders": [
+      "CADENAS GmbH",
+      "SCHUNK SE & Co. KG"
+    ],
+    "sourceProductUrl": "https://schunk.com/in/en/gripping-systems/parallel-gripper/co-act-egp-c/co-act-egp-c-40-n-n-m1013/p/000000000001359018"
+  }
+}

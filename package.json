@@ -1,0 +1,14 @@
+{
+  "name": "a0509-python-learning-prototype-tools",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "node tools/serve.mjs",
+    "convert:egpc40": "node tools/convert-egpc40-public-step.mjs",
+    "validate:egpc40": "node tools/validate-egpc40-public-glb.mjs"
+  },
+  "dependencies": {
+    "occt-import-js": "0.0.23",
+    "three": "0.180.0"
+  }
+}
