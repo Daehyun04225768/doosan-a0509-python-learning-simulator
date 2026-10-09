@@ -1424,7 +1424,6 @@ sys.modules["robot_lab"] = module
           temperature: 0.1,
           max_completion_tokens: 2200,
           reasoning_effort: reasoningEffort,
-          provider: { require_parameters: true },
           response_format: { type: 'json_schema', json_schema: { name: schema.name, strict: true, schema: schema.value } },
         }),
       });
